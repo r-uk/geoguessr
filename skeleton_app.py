@@ -58,7 +58,7 @@ def load_countries(path="countries.json"):
 
 
 countries, df = load_countries(
-    "/Users/larspehoviak/Documents/Master/WiSe25_26/RMD/Geoguessr/countries.json"
+    "countries.json"
 )
 
 left, right = st.columns([2, 1])
